@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/com/bar42/nexign/ApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+            <state relative-caret-position="392">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/test/com/bar42/nexign/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="18" selection-end-column="24" />
+            <state relative-caret-position="224">
+              <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#829#830#0" expanded="true" />
@@ -61,8 +61,6 @@
                 <element signature="e#1676#1677#0" expanded="true" />
                 <element signature="e#1075#1076#0" expanded="true" />
                 <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1886#1887#0" expanded="true" />
-                <element signature="e#1951#1952#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,8 +118,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/peterservice/example/camel/restjdbc/HeaderMovingProcessor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/test/com/bar42/nexign/CreepyJson.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/bar42/nexign/ApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/bar42/nexign/Base.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/bar42/nexign/ApiTest.java" />
       </list>
     </option>
   </component>
@@ -199,11 +197,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572291628351" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572325616348" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.testRead">
+  <component name="RunManager" selected="JUnit.ApiTest.testCreate">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -256,6 +254,23 @@
       <option name="PACKAGE_NAME" value="com.bar42.nexign" />
       <option name="MAIN_CLASS_NAME" value="com.bar42.nexign.ApiTest" />
       <option name="METHOD_NAME" value="canAddUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-service-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bar42.nexign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bar42.nexign" />
+      <option name="MAIN_CLASS_NAME" value="com.bar42.nexign.ApiTest" />
+      <option name="METHOD_NAME" value="testCreate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -324,9 +339,11 @@
       <item itemvalue="JUnit.ApiTest.testCreation" />
       <item itemvalue="JUnit.ApiTest" />
       <item itemvalue="JUnit.ApiTest.testRead" />
+      <item itemvalue="JUnit.ApiTest.testCreate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.testCreate" />
         <item itemvalue="JUnit.ApiTest" />
         <item itemvalue="JUnit.ApiTest.testRead" />
         <item itemvalue="JUnit.ApiTest.testCreation" />
@@ -345,12 +362,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiTest_canAddUser - 2019.10.28 at 15h 06m 51s.xml">
-      <configuration name="ApiTest.canAddUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiTest_canAddUser - 2019.10.28 at 15h 07m 23s.xml">
-      <configuration name="ApiTest.canAddUser" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApiTest_testCreation - 2019.10.28 at 15h 23m 35s.xml">
       <configuration name="ApiTest.testCreation" configurationId="JUnit" />
     </history-entry>
@@ -375,11 +386,18 @@
     <history-entry file="ApiTest - 2019.10.28 at 18h 58m 40s.xml">
       <configuration name="ApiTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ApiTest_testCreate - 2019.10.28 at 23h 28m 05s.xml">
+      <configuration name="ApiTest.testCreate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest_testCreate - 2019.10.29 at 08h 04m 47s.xml">
+      <configuration name="ApiTest.testCreate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2825465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2825465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -387,15 +405,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20963855" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3626506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TeamCity" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
@@ -698,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/bar42/nexign/ApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        <state relative-caret-position="392">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -708,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/bar42/nexign/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="18" selection-end-column="24" />
+        <state relative-caret-position="224">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#829#830#0" expanded="true" />
@@ -720,8 +738,6 @@
             <element signature="e#1676#1677#0" expanded="true" />
             <element signature="e#1075#1076#0" expanded="true" />
             <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1886#1887#0" expanded="true" />
-            <element signature="e#1951#1952#0" expanded="true" />
           </folding>
         </state>
       </provider>

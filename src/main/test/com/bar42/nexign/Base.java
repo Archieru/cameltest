@@ -72,7 +72,9 @@ public class Base
     
     public String trimBrackets(String original)
     {
-        return original.substring(1, original.length()-1);
+        return original
+            .replaceFirst("^\\[", "")
+            .replaceFirst("\\]$", "");
     }
     
     protected void assertContains(String haystack, String needle)

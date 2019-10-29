@@ -7,7 +7,6 @@ import static org.junit.Assert.assertFalse;
 
 public class ApiTest extends Base
 {
-    
     @Test
     public void testCreate()
     {
